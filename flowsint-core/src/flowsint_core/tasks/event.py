@@ -1,6 +1,7 @@
 # tasks/logging.py
 import logging
 import os
+import future
 from typing import Dict
 
 import redis
