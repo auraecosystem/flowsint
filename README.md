@@ -58,7 +58,7 @@ No Make needed. Works in both **Command Prompt (cmd)** and **PowerShell**.
 #### 2. Clone and set up environment files
 
 ```bat
-git clone https://github.com/reconurge/flowsint.git
+git clone https://github.com/auraecosystem/flowsint.git
 cd flowsint
 
 copy .env.example .env
@@ -87,7 +87,7 @@ Then go to [http://localhost:5173/register](http://localhost:5173/register) and 
 The same setup works out of the box on a server: the frontend serves the UI **and** proxies all API calls internally, so no extra configuration is needed for clients.
 
 ```bash
-git clone https://github.com/reconurge/flowsint.git
+git clone https://github.com/auraecosystem/flowsint.git
 cd flowsint
 cp .env.example .env
 # Edit .env — see "Before exposing to a network" below
